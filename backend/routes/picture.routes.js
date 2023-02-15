@@ -13,6 +13,7 @@ const pictureController = Router();
 //     next()
 // })
 
+
 // whatever coming from "/picture" in server we are passing here
 pictureController.get("/", async(req,res)=> {
     /**We need only that particular user's node**/ 
